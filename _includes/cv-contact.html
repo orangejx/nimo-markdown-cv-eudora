@@ -8,6 +8,8 @@
     {% if page.email %}
     <i class="fi-mail" style="margin-left:1em"></i>
     <a href="{{ page.email.url }}" style="margin-left:0.5em">{{ page.email.text }}</a>
+    <i style="margin-left:0.5em">|</i>
+    <a href="{{ page.email.url2 }}" style="margin-left:0.5em">{{ page.email.text2 }}</a>
     {% endif %}
 
     {% if page.phone %}
